@@ -74,13 +74,13 @@ public class CharacterController : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
 
             this.gameObject.transform.Translate(speed, 0, 0);
         }
 
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
 
             this.gameObject.transform.Translate(-speed, 0, 0);
